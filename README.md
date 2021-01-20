@@ -185,7 +185,12 @@ A discussão dos resultados também pode ser feita aqui na medida em que os resu
 <Apresente aqui as conclusões finais do trabalho e as lições aprendidas.>
 ~~~
 
+
 # Trabalhos Futuros
 ~~~
 <Indique trabalhos futuros a partir do ponto alcançado.>
 ~~~
+
+# Referências
+
+
