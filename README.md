@@ -98,7 +98,7 @@ Para tanto, o trabalho apresentou na seção III a descrição da universidade e
   - Definir premissas para o processo de contrato da UFCA;
   - Estudar o conceito e etapas do mercado livre de energia;
   - Estudar a demanda ótima para UFCA;
-  - Verficar o SWOT para mercado livre de uma autarquia estatal;
+  - Verificar o SWOT para mercado livre de uma autarquia estatal;
   - Apresentar aspectos jurídicos do processo de migração para o mercado livre de uma universidade;
   - Avaliar a viabilidade e econômica com a migração ao mercado livre de energia.>
 ~~~
@@ -125,22 +125,52 @@ Por fim, uma análise foi realizada para o processo de migração ao mercado liv
 ~~~
 
 ## Detalhamento do Projeto
-~~~
-<Apresente aqui detalhes da análise. Nesta seção ou na seção de Resultados podem aparecer destaques de código como indicado a seguir. Note que foi usada uma técnica de highlight de código, que envolve colocar o nome da linguagem na abertura de um trecho com `~~~`, tal como `~~~python`.
 
-Os destaques de código devem ser trechos pequenos de poucas linhas, que estejam diretamente ligados a alguma explicação. Não utilize trechos extensos de código. Se algum código funcionar online (tal como um Jupyter Notebook), aqui pode haver links. No caso do Jupyter, preferencialmente para o Binder abrindo diretamente o notebook em questão.>
-~~~
+Os detalhes completo do projeto podem ser visualizados no relatório final em . Devido o formato da estrutura do README foi optado por disponibilizar um PDF para facilitar a leitura e apresentar um resumo nessa página, além do código completo. 
 
-~~~python
-df = pd.read_excel("/content/drive/My Drive/Colab Notebooks/dataset.xlsx");
-sns.set(color_codes=True);
-sns.distplot(df.Hemoglobin);
-plt.show();
-~~~
+### Etapas para migração para o mercado livre
+
+Diante destes conceitos e análises de riscos, faz-se necessário delinear quais são os passos que a Universidade Federal do Cariri deverá seguir para adentrar ao Mercado Livre. 
+
+- Atendimento ao Pré-Requisito de Demanda Contratada: Como previamente mencionado, a Universidade possui uma demanda contratada de todas as suas unidades consumidoras equivalente a X MW, o que a determina ser um Cliente Especial. Por esta razão, ela terá certas limitações, como atendimento mínimo em média tensão e compra voltada apenas a fontes incentivadas, como a eólica, solar, pch ou biomassa. Como todas as unidades são atendidas na média tensão, não há entraves iniciais para o processo.
+
+- Renúncia de Contrato com a Distribuidora Local: Antes de migrar para o mercado livre, as unidades consumidoras em questão devem realizar a rescisão do contrato com a distribuidora responsável pelos respectivos fornecimentos de energia. Usualmente após a rescisão do contrato com a distribuidora, é necessário aguardar a vigência de 12 meses para que a desvinculação com o mercado cativo seja efetuado em definitivo. 
+
+- Adequação do Sistema de Medição e Faturamento: Para se tornar um adepto à CCEE, é necessário solicitar a alteração do método de medição de energia, visando a coleta de dados que serão alimentados no Sistema de Coleta de Dados de Energia (SCDE).
+
+- Modelagem de Ativos: Para que o agente possa efetuas as operações na CCEE, é necessário que, através de uma representação contábil, seja apresentada a modelagem dos ativos ao sistema de contabilização e liquidação. Vale salientar, que para o caso da UFCA, será necessário englobar os ativos de todos os campus. 
+
+- Abertura de Conta Corrente Específica: Visando a liquidação financeira, o  agente deverá abrir uma conta corrente no mesmo CNPJ matriz das unidades consumidoras, como é o caso da UFCA na qual fará uma comunhão de cargas. Esta conta deverá ser aberta na instituição financeira Banco Bradesco S/A, situada na Avenida Paulista, da cidade de São Paulo/SP.
+
+Adesão Aprovada pelo Conselho de Administração: Findados os procedimentos supracitados pelo Conselho de Administração, o agente está apto a adentrar ao mercado livre.
+
+
+### Procedimentos e detalhes do mercado livre para UFCA
+
+Os procedimentos para análise de viabilidade do processo de migração de energia elétrica para o mercado livre tem como objetivo final verificar a economia proporcionada por diferentes cenários de migração. Os procedimentos foram esboçados com base na análise de trabalhos da literatura [4,5,6] e implementado partes no GitHub do projeto e/ou Excel para chegar em uma conclusão sobre a migração ao mercado livre de energia da UFCA.
+
+Procedimento 1: Foi realizado o levantamento das contas de energia disponíveis para as 4 UC's da UFCA e digitalizadas no Colab;
+Procedimento 2: Dados faltantes foram incrementados utilizando uma algoritmo de previsão de dados;
+Procedimento 3: Foi observado o comportamento dos dados, perfil do cliente, tipo de contrato, demanda e ultrapassagem de reativo;
+Procedimento 4: Foi sugerido alterações na demanda com um estudo de otimização;
+Procedimento 5: Levantou-se os custos de energia dos dois últimos anos (2019, e 2020), e aplicou-se algoritmo de previsão para o ano seguinte (2021);
+Procedimento 6: Foi separado (calculado) o custo com TUSD (Tarifa de Uso do Sistema de Distribuição) e TE (Tarifa de Energia) para posterior cálculo da conta no mercado livre;
+Procedimento 7: Foi estudado a análise por SWOT e jurídica para caso de autarquias estatais;
+Procedimento 8: Foi definido o perfil de contrato para o mercado livre de energia compatível com UFCA;
+Procedimento 9: Foi calculada a conta para o mercado livre considerando consumidor especial com 50% e 100% de desconto para fontes incentivadas, e os anos de 2019, 2020, 2021;
+Procedimento 10: Análise dos resultados obtidos para contas no cativo e livre.
+
+É importante destacar que algumas premissas foram consideradas. Considerou-se que na UFCA as curvas futuras de consumo seguem o comportamento/sazonalidade das curvas passadas, aplicando algoritmos de previsão de futura, ou seja, considera-se que não serão implementadas nenhuma carga muito maior do que já existia; a tarifa horosazonal verde é a melhor opção para o cativo, já que é uma universidade nova, e possivelmente foram realizada análises; a migração ao mercado livre irá considerar as 4 UC's em conjunto, já que a maioria tem uma demanda pequena em comparação aos limites necessários para migração, e isso seria bom para o futuro e gestão de energia da universidade como um todo.
+
+Diante dos dados analisados para UFCA foi considerado que o consumidor seria do tipo especial (necessidade de contratar energia incentivada), com modulação de vigência única (flat), pois é o tipo mais comum considerado nas análises de migração para o mercado livre. 
+
 
 ## Evolução do Projeto
 ~~~
-<Relate a evolução do projeto: possíveis problemas enfrentados e possíveis mudanças de trajetória. Relatar o processo para se alcançar os resultados é tão importante quanto os resultados.>
+<A evolução do projeto e procedimentos também são detalhados no relatório completo em .
+
+A maior dificuldade encontrada foi o tempo para aprendizado das ferramentas (programação Python, Colab, e GitHub) e mercado livre de energia. Como o processo de migração é algo de tem um custo alto para consultoria, várias são as estratégias adotadas e a maioria não é comentada na literatura. Entretanto, a análise foi efetuada com sucesso, deixando espaço para trabalhos futuros. As outras possíveis análises são discutidas nos trabalhos futuros.
+>
 ~~~
 
 # Resultados e Discussão
