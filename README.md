@@ -142,23 +142,23 @@ Diante destes conceitos e análises de riscos, faz-se necessário delinear quais
 
 - Abertura de Conta Corrente Específica: Visando a liquidação financeira, o  agente deverá abrir uma conta corrente no mesmo CNPJ matriz das unidades consumidoras, como é o caso da UFCA na qual fará uma comunhão de cargas. Esta conta deverá ser aberta na instituição financeira Banco Bradesco S/A, situada na Avenida Paulista, da cidade de São Paulo/SP.
 
-Adesão Aprovada pelo Conselho de Administração: Findados os procedimentos supracitados pelo Conselho de Administração, o agente está apto a adentrar ao mercado livre.
+- Adesão Aprovada pelo Conselho de Administração: Findados os procedimentos supracitados pelo Conselho de Administração, o agente está apto a adentrar ao mercado livre.
 
 
 ### Procedimentos e detalhes do mercado livre para UFCA
 
 Os procedimentos para análise de viabilidade do processo de migração de energia elétrica para o mercado livre tem como objetivo final verificar a economia proporcionada por diferentes cenários de migração. Os procedimentos foram esboçados com base na análise de trabalhos da literatura [4,5,6] e implementado partes no GitHub do projeto e/ou Excel para chegar em uma conclusão sobre a migração ao mercado livre de energia da UFCA.
 
-Procedimento 1: Foi realizado o levantamento das contas de energia disponíveis para as 4 UC's da UFCA e digitalizadas no Colab;
-Procedimento 2: Dados faltantes foram incrementados utilizando uma algoritmo de previsão de dados;
-Procedimento 3: Foi observado o comportamento dos dados, perfil do cliente, tipo de contrato, demanda e ultrapassagem de reativo;
-Procedimento 4: Foi sugerido alterações na demanda com um estudo de otimização;
-Procedimento 5: Levantou-se os custos de energia dos dois últimos anos (2019, e 2020), e aplicou-se algoritmo de previsão para o ano seguinte (2021);
-Procedimento 6: Foi separado (calculado) o custo com TUSD (Tarifa de Uso do Sistema de Distribuição) e TE (Tarifa de Energia) para posterior cálculo da conta no mercado livre;
-Procedimento 7: Foi estudado a análise por SWOT e jurídica para caso de autarquias estatais;
-Procedimento 8: Foi definido o perfil de contrato para o mercado livre de energia compatível com UFCA;
-Procedimento 9: Foi calculada a conta para o mercado livre considerando consumidor especial com 50% e 100% de desconto para fontes incentivadas, e os anos de 2019, 2020, 2021;
-Procedimento 10: Análise dos resultados obtidos para contas no cativo e livre.
+- Procedimento 1: Foi realizado o levantamento das contas de energia disponíveis para as 4 UC's da UFCA e digitalizadas no Colab;
+- Procedimento 2: Dados faltantes foram incrementados utilizando uma algoritmo de previsão de dados;
+- Procedimento 3: Foi observado o comportamento dos dados, perfil do cliente, tipo de contrato, demanda e ultrapassagem de reativo;
+- Procedimento 4: Foi sugerido alterações na demanda com um estudo de otimização;
+- Procedimento 5: Levantou-se os custos de energia dos dois últimos anos (2019, e 2020), e aplicou-se algoritmo de previsão para o ano seguinte (2021);
+- Procedimento 6: Foi separado (calculado) o custo com TUSD (Tarifa de Uso do Sistema de Distribuição) e TE (Tarifa de Energia) para posterior cálculo da conta no mercado livre;
+- Procedimento 7: Foi estudado a análise por SWOT e jurídica para caso de autarquias estatais;
+- Procedimento 8: Foi definido o perfil de contrato para o mercado livre de energia compatível com UFCA;
+- Procedimento 9: Foi calculada a conta para o mercado livre considerando consumidor especial com 50% e 100% de desconto para fontes incentivadas, e os anos de 2019, 2020, 2021;
+- Procedimento 10: Análise dos resultados obtidos para contas no cativo e livre.
 
 É importante destacar que algumas premissas foram consideradas. Considerou-se que na UFCA as curvas futuras de consumo seguem o comportamento/sazonalidade das curvas passadas, aplicando algoritmos de previsão de futura, ou seja, considera-se que não serão implementadas nenhuma carga muito maior do que já existia; a tarifa horosazonal verde é a melhor opção para o cativo, já que é uma universidade nova, e possivelmente foram realizada análises; a migração ao mercado livre irá considerar as 4 UC's em conjunto, já que a maioria tem uma demanda pequena em comparação aos limites necessários para migração, e isso seria bom para o futuro e gestão de energia da universidade como um todo.
 
