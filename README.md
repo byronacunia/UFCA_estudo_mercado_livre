@@ -111,6 +111,7 @@ Para tanto, o trabalho apresentou na seção III a descrição da universidade e
 ## Ferramentas
 
 Microsoft Excel | https://office.live.com/start/Excel.aspx?ui=pt-BR | `<Editor de planilhas de dados Excel, utilizado para digitalização inicial dos dados de conta de energia das UC's.>`
+
 Colab | https://colab.research.google.com/ | `<Elaboração do código em Python para tratamento dos dados, análises, e avaliação econômica.>`
 
 # Metodologia
