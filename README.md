@@ -52,14 +52,14 @@ Vídeo de apresentação do Projeto: https:/www.youtube.com
 # Project `<Study of migration to the free energy market based on UFCA>`
 
 # Descrição Resumida do Projeto
-~~~
+
 Nos últimos anos no Brasil tem crescido o número de consumidores que migram para o mercado livre de energia. Nessa perspectiva, as universidades brasileiras também podem ter grande potencial para migração e gerar economia nos cofres públicos. Neste ensejo, o presente trabalho escolheu a Universidade Federal do Cariri (UFCA) para realização da análise de migração para o mercado livre. Nesse documento, serão apresentadas as análises realizadas para migração do mercado cativo para o livre. A análise foi feita utilizando os dados examinados anteriormente da UFCA, definido a demanta ótima, aspectos jurídicos, observação do SWOT (strengths, weaknesses, opportunities, threats - no português, forças, fraquezas, oportunidades e ameaças), e análise econômica do processo de migração. Assim, foi obtido como resultado um ganho de X% ao migrar para o mercado livre, sendo possível o processo de migração para UFCA. No geral, observou-se como funciona o processo de migração ao mercado livre e como utilizar ferramentas para realizar as análises.
-~~~
+
 
 # Abstract in English
-~~~
+
 In recent years in Brazil, the number of consumers who migrate to the free energy market has grown. In this perspective, Brazilian universities may also have great potential for migration and generate savings in public coffers. In this opportunity, the present work chose the Federal University of Cariri (UFCA) to analyze migration to the free market. In this document, the analyzes performed for migration from the captive to the free market will be presented. The analysis was made using the previously examined data from UFCA, defining the optimal demand, legal aspects, observation of SWOT (strengths, weaknesses, opportunities, threats), and economic analysis of the process of migration. Thus, a gain of X% was obtained as a result of migrating to the free market, making the migration process to UFCA possible. In general, it was observed how the migration process to the free market works and how to use tools to carry out the analyzes.
-~~~
+
 
 # Equipe
 `<Estudante: Byron Alejandro Acuña Acurio - R.A: 209428>`
@@ -73,8 +73,8 @@ In recent years in Brazil, the number of consumers who migrate to the free energ
 `<coloque um link para o vídeo apresentado o projeto.>`
 
 # Introdução e Motivação
-~~~
-<Nos últimos anos o setor elétrico brasileiro vem se reformulando, principalmente com o crescimento no número de fontes renováveis de energia. Em paralelo, o monopólio das distribuidoras e transmissoras possibilitou altos custos que refletiram na economia como um todo [1]. Tudo isso, criou um cenário favorável para o crescimento recente do mercado livre de energia.
+
+Nos últimos anos o setor elétrico brasileiro vem se reformulando, principalmente com o crescimento no número de fontes renováveis de energia. Em paralelo, o monopólio das distribuidoras e transmissoras possibilitou altos custos que refletiram na economia como um todo [1]. Tudo isso, criou um cenário favorável para o crescimento recente do mercado livre de energia.
 
 O mercado livre de energia propiciou a comercialização de energia elétrica com a negociação de produtores e consumidores de energia. Incluindo benefícios na venda de energia de origem renovável. Assim, o ambiente de contratação livre (ACL) tornou-se um opção ao mercado cativo.
 
@@ -82,26 +82,26 @@ Os benefícios de conseguir negociar o próprio contrato de energia são inúmer
 
 Entretanto, analisar contratos e fundamentos técnicos para migração são necessários, já que um contrato errado pode trazer prejuízos por longos anos. Assim, nesse trabalho o objetivo foi analisar a viabilidade da migração para o mercado livre da Universidade Federal do Cariri (UFCA). Além disso, a proposta da disciplina IT304S - Contratação de Energia para Grandes Consumidores, permitiu conhecer ferramentas e se aprofundar no conteúdo sobre mercado livre. Os resultados foram favoráveis a migração das quatro unidades consumidoras da UFCA em comunhão de carga. O relatório completo do projeto é visto em: https://www.google.com.br/drive/apps.html.
 
-Para tanto, o trabalho apresentou na seção III a descrição da universidade escolhida; na seção IV foi apresentado um conteúdo teórico sobre mercado livre e processo de migração, com vantagens e desvantagens; seção V otimização da demanda; na seção VI foi realizado a análise SWOT (strengths, weaknesses, opportunities, threats - no português, forças, fraquezas, oportunidades e ameaças); seção VII comentou-se os aspectos jurídicos; seção VIII analisou a migração para o mercado livre com vies econômico; e finalizando com as considerações finais.>
-~~~
+Para tanto, o trabalho apresentou na seção III a descrição da universidade escolhida; na seção IV foi apresentado um conteúdo teórico sobre mercado livre e processo de migração, com vantagens e desvantagens; seção V otimização da demanda; na seção VI foi realizado a análise SWOT (strengths, weaknesses, opportunities, threats - no português, forças, fraquezas, oportunidades e ameaças); seção VII comentou-se os aspectos jurídicos; seção VIII analisou a migração para o mercado livre com vies econômico; e finalizando com as considerações finais.
+
 
 ## Perguntas de Pesquisa
-~~~
-<Vale a pena migrar para o Mercado Livre? Como consumidor livre ou especial? Qual é a economia estimada? Qual é o preço da energia a partir de quando compensa a migração? Qual a recomendação para uma contratação?>
-~~~
+
+Vale a pena migrar para o Mercado Livre? Como consumidor livre ou especial? Qual é a economia estimada? Qual é o preço da energia a partir de quando compensa a migração? Qual a recomendação para uma contratação?
+
 
 ## Objetivos do projeto
-~~~
-<O principal objetivo do trabalho foi avaliar a possível migração do mercado cativo ao mercado livre da Universidade Federal do Cariri (UFCA).>
 
-<Os objetivos específicos são:
+O principal objetivo do trabalho foi avaliar a possível migração do mercado cativo ao mercado livre da Universidade Federal do Cariri (UFCA).
+
+Os objetivos específicos são:
   - Definir premissas para o processo de contrato da UFCA;
   - Estudar o conceito e etapas do mercado livre de energia;
   - Estudar a demanda ótima para UFCA;
   - Verificar o SWOT para mercado livre de uma autarquia estatal;
   - Apresentar aspectos jurídicos do processo de migração para o mercado livre de uma universidade;
   - Avaliar a viabilidade e econômica com a migração ao mercado livre de energia.>
-~~~
+
 
 # Recursos e Métodos
 
@@ -115,15 +115,14 @@ Microsoft Excel | https://office.live.com/start/Excel.aspx?ui=pt-BR | `<Editor d
 Colab | https://colab.research.google.com/ | `<Elaboração do código em Python para tratamento dos dados, análises, e avaliação econômica.>`
 
 # Metodologia
-~~~
-<O primeiro passo para estudo de migração ao mercado livre foi realizado no primeiro relatório da disciplina IT304S - Contratação de Energia para Grandes Consumidores (disponibilizado no Google Drive do curso, pasta UFCA), em que foi analisado as contas da UFCA, observando aspectos como uso da demanda e valores de reativos. Bem como, observou-se o comportamento dos dados. Pode-se dizer a metodologia utilizou-se de pesquisas qualitativas e quantitativas.
+
+O primeiro passo para estudo de migração ao mercado livre foi realizado no primeiro relatório da disciplina IT304S - Contratação de Energia para Grandes Consumidores (disponibilizado no Google Drive do curso, pasta UFCA), em que foi analisado as contas da UFCA, observando aspectos como uso da demanda e valores de reativos. Bem como, observou-se o comportamento dos dados. Pode-se dizer a metodologia utilizou-se de pesquisas qualitativas e quantitativas.
 
 Nesse GitHub, é apontado o código em Python para analisar a viabilidade de migração do mercado cativo ao mercado livre da UFCA. A primeira parte do trabalho nessa etapa foi estudar o mercado livre, verificando as possibilidades de migração para uma universidade pública como a UFCA, baseado no perfil traçado anteriormente no primeiro relatório. Os resultados e teória foi disponibilizado no relatório final completo em: 
 
 Posteriormente, foi realizado um processo para otimização de demanda, variando o valor de demanda contratada até chegar ao valor ótimo. Em seguida, aspectos de SWOT e jurídicos foram comentados no relatório completo, já que muito se tem discutido sobre a legalidade e fundamentação da migração do mercado cativo ao livre de universidades públicas. Mesmo já existindo exemplos de sucesso como a UNICAMP.
 
-Por fim, uma análise foi realizada para o processo de migração ao mercado livre. Os dados da UFCA faltantes foram preenchidos com previsão de dados utilizando a plataforma Google Colab [3] em Python, e os valores da conta de energia no cenário de demanda atual e demanda ótima foram obtidos para o mercado cativo e livre, verificando se o processo de migração compensa.>
-~~~
+Por fim, uma análise foi realizada para o processo de migração ao mercado livre. Os dados da UFCA faltantes foram preenchidos com previsão de dados utilizando a plataforma Google Colab [3] em Python, e os valores da conta de energia no cenário de demanda atual e demanda ótima foram obtidos para o mercado cativo e livre, verificando se o processo de migração compensa.
 
 ## Detalhamento do Projeto
 
