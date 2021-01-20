@@ -45,6 +45,7 @@ O código utilizado na análise é python feito no ambiente Colab.
 ## `assets`
 
 Relatório Completo: https://www.google.com.br/drive/apps.html
+
 Vídeo de apresentação do Projeto: https:/www.youtube.com
 
 # Projeto `<Estudo de migração para o mercado livre de energia com base na UFCA>`
