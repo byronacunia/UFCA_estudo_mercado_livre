@@ -106,23 +106,22 @@ Para tanto, o trabalho apresentou na seção III a descrição da universidade e
 # Recursos e Métodos
 
 ## Bases de Dados
-`<Elencar bases de dados utilizadas no projeto preferencialmente no formato da tabela a seguir.>`
-Base de Dados | Endereço na Web | Resumo descritivo e uso
------ | ----- | -----
-Base 1 | http://base1.org/ | `<Descrição da Base 1 e para que ela foi usada no projeto.>`
-Base 2 | http://base2.org/ | `<Descrição da Base 2 e para que ela foi usada no projeto.>`
+`A base de dados utilizada foram as contas de energia das quatro UC's repassadas na disciplina de IT304S - Contratação de Energia para Grandes Consumidores, digitalizadas no Excel disponibilizado no Google Drive do curso e tratamento em UFCA.ipynb.
 
 ## Ferramentas
 
-`<Elencar ferramentas utilizadas no projeto preferencialmente no formato da tabela a seguir.>`
-Ferramenta | Endereço na Web | Resumo descritivo e uso
------ | ----- | -----
-Ferramenta 1 | http://ferramenta1.org/ | `<Descrição da Ferramenta 1 e para que ela foi usada no projeto.>`
-Ferramenta 2 | http://ferramenta2.org/ | `<Descrição da Ferramenta 2 e para que ela foi usada no projeto.>`
+Microsoft Excel | https://office.live.com/start/Excel.aspx?ui=pt-BR | `<Editor de planilhas de dados Excel, utilizado para digitalização inicial dos dados de conta de energia das UC's.>`
+Colab | https://colab.research.google.com/ | `<Elaboração do código em Python para tratamento dos dados, análises, e avaliação econômica.>`
 
 # Metodologia
 ~~~
-<Abordagem/metodologia adotada, incluindo especificação de quais técnicas foram exploradas, tais como: aprendizagem de máquina, análise de redes, análise estatística, ou integração de uma ou mais técnicas.>
+<O primeiro passo para estudo de migração ao mercado livre foi realizado no primeiro relatório da disciplina IT304S - Contratação de Energia para Grandes Consumidores (disponibilizado no Google Drive do curso, pasta UFCA), em que foi analisado as contas da UFCA, observando aspectos como uso da demanda e valores de reativos. Bem como, observou-se o comportamento dos dados. Pode-se dizer a metodologia utilizou-se de pesquisas qualitativas e quantitativas.
+
+Nesse GitHub, é apontado o código em Python para analisar a viabilidade de migração do mercado cativo ao mercado livre da UFCA. A primeira parte do trabalho nessa etapa foi estudar o mercado livre, verificando as possibilidades de migração para uma universidade pública como a UFCA, baseado no perfil traçado anteriormente no primeiro relatório. Os resultados e teória foi disponibilizado no relatório final completo em: 
+
+Posteriormente, foi realizado um processo para otimização de demanda, variando o valor de demanda contratada até chegar ao valor ótimo. Em seguida, aspectos de SWOT e jurídicos foram comentados no relatório completo, já que muito se tem discutido sobre a legalidade e fundamentação da migração do mercado cativo ao livre de universidades públicas. Mesmo já existindo exemplos de sucesso como a UNICAMP.
+
+Por fim, uma análise foi realizada para o processo de migração ao mercado livre. Os dados da UFCA faltantes foram preenchidos com previsão de dados utilizando a plataforma Google Colab [3] em Python, e os valores da conta de energia no cenário de demanda atual e demanda ótima foram obtidos para o mercado cativo e livre, verificando se o processo de migração compensa.>
 ~~~
 
 ## Detalhamento do Projeto
