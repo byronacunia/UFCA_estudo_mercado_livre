@@ -9,7 +9,7 @@
 ### Professor: Dr. Luiz Carlos Pereira da Silva
 ### Professor: MSc. Lia Farias
 
-Esse repositório faz parte do projeto de estudo de migração do mercado cativo ao livre com base na UFCA. Além do repositório, o relatório completo pode ser encontrado no formato PDF no link https://www.google.com.br/drive/apps.html.
+Esse repositório faz parte do projeto de estudo de migração do mercado cativo ao livre com base na UFCA. Além do repositório, o relatório completo pode ser encontrado no formato PDF no link https://www.google.com.br/drive/apps.html. Os dados utilizados para o relatório inicial e final estão compilados no código principal final UFCA.ipynb. 
 
 A estrutura geral deste repositório é apresentada a seguir. 
 
@@ -87,12 +87,20 @@ Para tanto, o trabalho apresentou na seção III a descrição da universidade e
 
 ## Perguntas de Pesquisa
 ~~~
-<Perguntas de pesquisa que o projeto pretende responder ou hipóteses a serem avaliadas, enunciadas de maneira objetiva e verificável.>
+<Vale a pena migrar para o Mercado Livre? Como consumidor livre ou especial? Qual é a economia estimada? Qual é o preço da energia a partir de quando compensa a migração? Qual a recomendação para uma contratação?>
 ~~~
 
 ## Objetivos do projeto
 ~~~
-<Como seu projeto propôs abordar o problema apresentado.>
+<O principal objetivo do trabalho foi avaliar a possível migração do mercado cativo ao mercado livre da Universidade Federal do Cariri (UFCA).>
+
+<Os objetivos específicos são:
+  - Definir premissas para o processo de contrato da UFCA;
+  - Estudar o conceito e etapas do mercado livre de energia;
+  - Estudar a demanda ótima para UFCA;
+  - Verficar o SWOT para mercado livre de uma autarquia estatal;
+  - Apresentar aspectos jurídicos do processo de migração para o mercado livre de uma universidade;
+  - Avaliar a viabilidade e econômica com a migração ao mercado livre de energia.>
 ~~~
 
 # Recursos e Métodos
