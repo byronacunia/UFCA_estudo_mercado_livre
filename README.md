@@ -5,7 +5,7 @@
 ### Estudante: Elson Yoiti Sakô, R.A: 148482
 ### Estudante: João Lucas de Souza Silva, R.A: 211497
 ### Estudante: Micaella Aynoã Loiola Ferreira, R.A: 265574
-### Estudante: Estudante: Bruno Furtado Albuquerque, R.A: 214574
+### Estudante: Bruno Furtado Albuquerque, R.A: 214574
 ### Professor: Dr. Luiz Carlos Pereira da Silva
 ### Professor: MSc. Lia Farias
 A continuação se apresenta a estrutura geral deste repositorio assim como uma descrição de suas pastas e arquivos. 
