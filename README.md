@@ -1,4 +1,4 @@
-# Estudo de migração para o mercado livre da UFCA
+# Estudo de migração para o mercado livre de energia com base na UFCA
 ## IT304S - Contratação de Energia para Grandes Consumidores
 ### Estudante: Byron Alejandro Acuña Acurio, R.A: 209428
 ### Estudante: Diana Estefanía Chérrez Barragán, R.A: 227041
@@ -8,7 +8,10 @@
 ### Estudante: Bruno Furtado Albuquerque, R.A: 214574
 ### Professor: Dr. Luiz Carlos Pereira da Silva
 ### Professor: MSc. Lia Farias
-A continuação se apresenta a estrutura geral deste repositorio assim como uma descrição de suas pastas e arquivos. 
+
+Esse repositório faz parte do projeto de estudo de migração do mercado cativo ao livre com base na UFCA. Além do repositório, o relatório completo pode ser encontrado no formato PDF no link https://www.google.com.br/drive/apps.html.
+
+A estrutura geral deste repositório é apresentada a seguir. 
 
 ~~~
 ├── README.md          <- apresentação do projeto
@@ -27,65 +30,43 @@ A continuação se apresenta a estrutura geral deste repositorio assim como uma 
 └── assets             <- mídias usadas no projeto
 ~~~
 
-Na raiz deve haver um arquivo de nome `README.md` contendo a apresentação do projeto, como detalhado na seção seguinte.
-
 ## `data`
 
-Dados utilizados no projeto respeitadas as possíveis implicações éticas, se você tiver licença para tal e se o volume for suportado pelo Github. Você pode optar por colocar um subconjunto ilustrativo dos dados.
-
-É importante que sejam colocados os dados originais (se for possível) para garantir a reprodutibilidade do processo. Os originais são colocados na subpasta `raw` se forem produzidos pela equipe e na subpasta `external` se forem de terceiros. Também podem ser colocados aqui dados intermediários (por exemplo, dados tratados, resumidos etc.) na pasta `interim`. Finalmente, coloque os dados finais que serviram de entrada para as suas análises na subpasta `processed`.
+Os dados utilizados no projeto foram repassados na disciplina de IT304S - Contratação de Energia para Grandes Consumidores contendo faturas de energia de quatro unidades consumidoras (UC's) da Universidade Federal do Cariri (UFCA). Os dados foram digitalizados no Excel e colocados na pasta da disciplina compartilhada no Google Drive, e posteriomente, foram adicionados no GitHub e processados no ambiente Colab. Foi utilizado um metódo de previsão linear utilizando os dados passados de cada variável para preencher lacunas vazias de modo a permitir a análise, ou acrescentado o valor zero, dependendo do tipo de dado.
 
 ## `notebooks`
 
-Código do seu projeto que pode ser executado online sem instalação de software, tal como um notebook em Jupyter ou equivalente.
+O código do projeto pode ser obtido no arquivo UFCA.ipynb.
 
 ## `src`
 
-Código em alguma linguagem ou projeto em Orange, Weka e similares.
-
-Se for código em linguagem de programação, tente organizá-lo de forma que seja simples a sua execução por terceiros, por exemplo, acrescente as bibliotecas necessárias etc. Acrescente na raiz um arquivo `README.md` com as instruções básicas de instalação e execução.
+O código utilizado na análise é python feito no ambiente Colab.
 
 ## `assets`
 
-Qualquer mídia usada no seu projeto: vídeo, ilustrações, arquivos PDF etc.
+Relatório Completo: https://www.google.com.br/drive/apps.html
+Vídeo de apresentação do Projeto: https:/www.youtube.com
 
-# Modelo para Apresentação do Projeto
-
-Este é um guia de como produzir documentação em Markdown. Para entender como criar documentos em Markdown no Github, veja o material/vídeo:
-[Guia de Uso do Markdown](https://github.com/mc-unicamp/oficinas/tree/master/docs).
-
-Vide detalhes sobre o Markdown em: [Mastering Markdown](https://guides.github.com/features/mastering-markdown/).
-
-E mais especificamente sobre tabelas em: [Organizing information with tables](https://help.github.com/en/articles/organizing-information-with-tables)
-
-O projeto pode ser apresentado em uma das possíveis formas:
-1. texto completo no arquivo `README.md`;
-2. texto no arquivo `README.md` e seção de Resultados e Discussão dentro de um notebook Jupyter ou equivalente -- nesse caso, deve haver um link para se abrir o notebook na respectiva seção;
-3. texto completo dentro de um notebook Jupyter ou equivalente -- nesse caso, o arquivo README.md deve conter pelo menos: o título, os componentes da equipe e um link para o notebook.
-
-Só será aceito o uso de notebook Jupyter (ou equivalente) para apresentação do projeto ou parte dele (formas 2 e 3), se for possível executá-lo online a partir de um link sem instalação local de software.
-
-Para todos os casos, a estrutura Markdown proposta abaixo poderá ser usada, dado que os notebooks aceitam Markdown.
-
-Segue abaixo o modelo de como deve ser apresentado e documentado o projeto. Tudo o que for indicado entre `<...>` indica algo que deve ser substituído pelo indicado. No modelo são colocados exemplos ilustrativos, que serão substituídos pelos do seu projeto.
-
-# Modelo para Apresentação do Projeto
-
-# Projeto `<Título em Português>`
-# Project `<Title in English>`
+# Projeto `<Estudo de migração para o mercado livre de energia com base na UFCA>`
+# Project `<Study of migration to the free energy market based on UFCA>`
 
 # Descrição Resumida do Projeto
 ~~~
-<Descreva resumidamente o que fará o projeto. O resumo idealmente deve: apresentar o contexto; indicar o problema; apresentar a sua solução para o problema; indicar porque a sua solução é melhor do que os esforços atuais (não obrigatório); concluir com os resultados alcançados.>
+<Nos últimos anos no Brasil tem crescido o número de consumidores que migram para o mercado livre de energia. Nessa perspectiva, as universidades brasileiras também podem ter grande potencial para migração e gerar economia nos cofres públicos. Neste ensejo, o presente trabalho escolheu a Universidade Federal do Cariri (UFCA) para realização da análise de migração para o mercado livre. Nesse documento, serão apresentadas as análises realizadas para migração do mercado cativo para o livre. A análise foi feita utilizando os dados examinados anteriormente da UFCA, definido a demanta ótima, aspectos jurídicos, observação do SWOT (strengths, weaknesses, opportunities, threats - no português, forças, fraquezas, oportunidades e ameaças), e análise econômica do processo de migração. Assim, foi obtido como resultado um ganho de X% ao migrar para o mercado livre, sendo possível o processo de migração para UFCA. No geral, observou-se como funciona o processo de migração ao mercado livre e como utilizar ferramentas para realizar as análises.>
 ~~~
 
 # Abstract in English
 ~~~
-<English version of the abstract.>
+<In recent years in Brazil, the number of consumers who migrate to the free energy market has grown. In this perspective, Brazilian universities may also have great potential for migration and generate savings in public coffers. In this opportunity, the present work chose the Federal University of Cariri (UFCA) to analyze migration to the free market. In this document, the analyzes performed for migration from the captive to the free market will be presented. The analysis was made using the previously examined data from UFCA, defining the optimal demand, legal aspects, observation of SWOT (strengths, weaknesses, opportunities, threats), and economic analysis of the process of migration. Thus, a gain of X% was obtained as a result of migrating to the free market, making the migration process to UFCA possible. In general, it was observed how the migration process to the free market works and how to use tools to carry out the analyzes.>
 ~~~
 
 # Equipe
-* `<nome completo>` - `<RA>`
+`<Estudante: Byron Alejandro Acuña Acurio - R.A: 209428>`
+`<Estudante: Diana Estefanía Chérrez Barragán - R.A: 227041>`
+`<Estudante: Elson Yoiti Sakô - R.A: 148482>`
+`<Estudante: João Lucas de Souza Silva - R.A: 211497>`
+`<Estudante: Micaella Aynoã Loiola Ferreira - R.A: 265574>`
+`<Estudante: Bruno Furtado Albuquerque - R.A: 214574>`
 
 # Vídeo do Projeto
 `<coloque um link para o vídeo apresentado o projeto.>`
