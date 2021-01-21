@@ -166,12 +166,11 @@ Diante dos dados analisados para UFCA foi considerado que o consumidor seria do 
 
 
 ## Evolução do Projeto
-~~~
-<A evolução do projeto e procedimentos também são detalhados no relatório completo em .
+
+A evolução do projeto e procedimentos também são detalhados no relatório completo em .
 
 A maior dificuldade encontrada foi o tempo para aprendizado das ferramentas (programação Python, Colab, e GitHub) e mercado livre de energia. Como o processo de migração é algo de tem um custo alto para consultoria, várias são as estratégias adotadas e a maioria não é comentada na literatura. Entretanto, a análise foi efetuada com sucesso, deixando espaço para trabalhos futuros. As outras possíveis análises são discutidas nos trabalhos futuros.
->
-~~~
+
 
 # Resultados e Discussão
 ~~~
