@@ -173,11 +173,14 @@ A maior dificuldade encontrada foi o tempo para aprendizado das ferramentas (pro
 
 
 # Resultados e Discussão
-~~~
-<Apresente os resultados da forma mais rica possível, com gráficos e tabelas. Mesmo que o seu código rode online em um notebook, copie para esta parte a figura estática. A referência a código e links para execução online pode ser feita aqui ou na seção de detalhamento do projeto (o que for mais pertinente).
+Os resultados obtidos foi com base na análise econômica. Para realizar a análise econômica foi considerado o cenário com a demanda atual (1049 kW para UC's juntas) e o cenário com a demanda otimizada (750 kW para UC's juntas). Além disso, calculou-se o incentivo de 50% que seria o mínimo e o de 100% que seria o máximo, já que a fonte utilizada é incentivada.
 
-A discussão dos resultados também pode ser feita aqui na medida em que os resultados são apresentados ou em seção independente. Aspectos importantes a serem discutidos: É possível tirar conclusões dos resultados? Quais? Há indicações de direções para estudo? São necessários trabalhos mais profundos?>
-~~~
+O primeiro objetivo na análise foi obter o breakeven (ponto de equilíbrio) [6], de modo que a conta do mercado livre tivesse o mesmo custo da conta do mercado cativo. O breakeven é um método bastante conhecido, e pode ser utilizado para tomar a decisão estabelecendo um valor limite. O custo de migração ao mercado livre irá compensar caso o valor seja inferior ao breakeven. Entretanto, é válido destacar que como existe riscos no mercado livre e custos de adequação, deve-se estabelecer uma margem de segurança inferior ao breakeven. Logo, o breakeven serve como um parâmetro referência para o começo da análise, mostrando a partir de qual ponto pode-se começar a investir no mercado livre.
+
+A Tabela 1 apresentou o valor do breakeven obtido para cada cenário. No caso da demanda atual, sendo conservador, o menor valor que poderia ser comprada de energia no mercado livre por MWh seria R$ 390,12 para o livre 50% e R$495,37 para o livre 100%. No caso da demanda ótima, seria R$ 386,04 para o livre 50% e R$486,63 para o livre 100%. Um detalhe a ser comentado, é que as fontes livre 100% as vezes podem ter um custo maior que a 50% no leilão, pois tem uma demanda maior no leilão. Assim, é necessário sempre realizar as devidas análises após um leilão.
+
+Tabela 1. Valores de breakeven em diferentes cenários analisados para o MWh
+[My image](https://github.com/byronacunia/UFCA_estudo_mercado_livre/blob/main/assets/Tabela1.PNG)
 
 # Conclusões
 O presente trabalho teve como objetivo avaliar a possível migração do mercado cativo ao mercado livre da Universidade Federal do Cariri (UFCA). Os estudo iniciais possibilitaram entender diferentes tipos de faturas de energia elétrica, e pontos que devem ser considerados no processo de migração ao mercado livre. Notou-se o quanto é importante ter alternativas como mercado livre, pois isso possibilita a comercialização de energia entre produtos e consumidores, podendo economizar custo e ter um controle melhor sobre os gastos com energia elétrica. Além disso, foi necessário aprofundar os conhecimentos em ferramentas não conhecidas para integrantes do grupo, como GitHub, e Colab.
