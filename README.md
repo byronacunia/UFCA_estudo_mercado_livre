@@ -180,9 +180,28 @@ O primeiro objetivo na análise foi obter o breakeven (ponto de equilíbrio) [6]
 A Tabela 1 apresentou o valor do breakeven obtido para cada cenário. No caso da demanda atual, sendo conservador, o menor valor que poderia ser comprada de energia no mercado livre por MWh seria R$ 390,12 para o livre 50% e R$495,37 para o livre 100%. No caso da demanda ótima, seria R$ 386,04 para o livre 50% e R$486,63 para o livre 100%. Um detalhe a ser comentado, é que as fontes livre 100% as vezes podem ter um custo maior que a 50% no leilão, pois tem uma demanda maior no leilão. Assim, é necessário sempre realizar as devidas análises após um leilão.
 
 Tabela 1. Valores de breakeven em diferentes cenários analisados para o MWh
-[My image](https://github.com/byronacunia/UFCA_estudo_mercado_livre/blob/main/assets/Tabela1.PNG)
+<h1 align="center"> <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/Tabela1.PNG" /> </h1>
 
-<img src=”https://github.com/byronacunia/UFCA_estudo_mercado_livre/blob/main/assets/Tabela1.PNG”>
+Posteriormente, foi verificado o custo total da conta no cativo e no livre. Para o mercado livre considerou-se um valor de R$ 240,00/MWh, conforme utilizado na literatura encontrada [5]. Entretanto, esse valor pode sofrer grandes alterações para mais ou para menos dependendo do leilão. O valor de R$ 240,00/MWh foi considerado para o cenário 50% e 100%, é um valor que pode ser atingido na prática e serve para realização do estudo na disciplina, buscando uma estimativa de custo total. A Figura 1 mostra o cenário com a demanda atual, e a Figura 2 com a demanda otimizada, o valor no gráfico é a faixa aproximada do custo. É interessante destacar que o ano de 2021, é baseado em anos anteriores. Os dados de 2020 obtidos só tiveram alguns meses de pandemia contabilizados, o restante foi previsão baseada nos anos anteriores, devido a pandemia do COVID-19 e dados disponíveis.  Em todos os cenários verifica-se que o livre tem economia em relação ao cativo.
+
+
+<h1 align="center"> <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/Graficos1.png" /> </h1>
+Figura 1. Custos de Fatura anual para Cativo e Livre nos anos analisados com demanda atual
+
+<h1 align="center"> <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/Graficos2.png" /> </h1>
+Figura 2. Custos de Fatura anual para Cativo e Livre nos anos analisados com demanda otimizada
+
+Para verificar em valores a diferença de custo das faturas foi adicionada na Tabela 2. A economia é calculada pela diferença do preço do cativo e livre. Na demanda otimizada, a fatura do cativo é menor, logo a economia com o mercado livre também é um pouco menor considerando a diferença de preço. Mas, a fatura total ela é reduzida. Dessa forma, com a alteração de demanda tem-se uma fatura com valor inferior a fatura com a demanda atual. Pode ser observado que a economia na fatura anual pode chegar a 24,26% (livre 50%) e  42,22% (livre 100%) na demanda atual; e na demanda otimizada, 23,86% (livre 50%) e 42,27% (livre 100%). Logo, na demanda otimizada o valor pago da fatura é um pouco menor em todos os caso, do que na demanda atual.
+
+Com todos os resultados, pode-se dizer que a migração para o mercado livre é viável para UFCA nos valores considerado no trabalho. Pode-se observar que o valor de breakeven é muito maior do que o praticado geralmente no mercado livre. Logo, o mercado livre pode ser um alternativa atrativa para UFCA.
+
+Tabela 2. Custo de faturas e diferenças em diferentes cenários analisados
+<h1 align="center"> <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/Tabela2.PNG" /> </h1>
+
+Para mais, o custo de adequação de cada UC pode chegar ao valor de R$ 50.000,00 reais, conforme [7]. Esse valor foi o único encontrado na literatura para referência, bem como não se sabe qual a necessidade de alteração para possibilitar medição na UFCA. Considerando o valor de R$ 50.000,00 reais para cada UC, tem-se um investimento de R$ 200.000,00 reais para o primeiro ano. O ganho obtido pela diferença em relação a fatura do cativo, paga o investimento com um payback (tempo de retorno) menor que 10 meses para livre 50% e aproximadamente 6 meses para o livre 100%, dependendo do ano considerado.
+
+Assim, a recomendação para UFCA é a migração ao mercado livre em comunhão de carga, com monitoramento mensal do consumo, refazendo a avaliação de custos com base no valor contratado em leilão, desde que o custo da adequação seja pago em tempo inferior ao contrato. Logo, deve-se sempre negociar no leilão de modo a tentar obter valores próximos ou inferior ao custo de referência apresentado no estudo, o que é possível pelo que tem sido visto nos últimos leilões.
+
 
 # Conclusões
 O presente trabalho teve como objetivo avaliar a possível migração do mercado cativo ao mercado livre da Universidade Federal do Cariri (UFCA). Os estudo iniciais possibilitaram entender diferentes tipos de faturas de energia elétrica, e pontos que devem ser considerados no processo de migração ao mercado livre. Notou-se o quanto é importante ter alternativas como mercado livre, pois isso possibilita a comercialização de energia entre produtos e consumidores, podendo economizar custo e ter um controle melhor sobre os gastos com energia elétrica. Além disso, foi necessário aprofundar os conhecimentos em ferramentas não conhecidas para integrantes do grupo, como GitHub, e Colab.
@@ -211,5 +230,6 @@ conclusão de curso em Engenharia Elétrica, Fortaleza, Brasil.
 
 [6] K. R. do Nascimento, “Migração para o mercado livre de energia e alteração de tarifa horária: estudo de caso em uma indústria,” 2018, universidade Federal do Rio de Janeiro, Trabalho de conclusão de curso em Engenharia, Rio de Janeiro, Brasil.
 
+[7] R. E. M. da Costa, “Sistemas de medição para faturamento e o mercado de energiaelétrica:  uma visão crítica do referencial regulatório,” 2009, universidade de SãoPaulo, Mestre em Engenharia Elétrica, São Paulo, Brasil
 
 
