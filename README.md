@@ -46,6 +46,8 @@ O código utilizado na análise é python feito no ambiente Colab.
 
 Relatório Completo: https://www.google.com.br/drive/apps.html
 
+Relatório de Pré-Análise: https://drive.google.com/file/d/1cXDALDNj6ns98IG6yXJtxtKCCosYpYP8/view?usp=sharing
+
 Vídeo de apresentação do Projeto: https:/www.youtube.com
 
 # Projeto `<Estudo de migração para o mercado livre de energia com base na UFCA>`
@@ -116,7 +118,7 @@ Colab | https://colab.research.google.com/ | `<Elaboração do código em Python
 
 # Metodologia
 
-O primeiro passo para estudo de migração ao mercado livre foi realizado no primeiro relatório da disciplina IT304S - Contratação de Energia para Grandes Consumidores (disponibilizado no Google Drive do curso, pasta UFCA), em que foi analisado as contas da UFCA, observando aspectos como uso da demanda e valores de reativos. Bem como, observou-se o comportamento dos dados. Pode-se dizer a metodologia utilizou-se de pesquisas qualitativas e quantitativas.
+O primeiro passo para estudo de migração ao mercado livre foi realizado no primeiro relatório da disciplina IT304S - Contratação de Energia para Grandes Consumidores (disponibilizado no Google Drive do curso, pasta UFCA, ou https://drive.google.com/file/d/1cXDALDNj6ns98IG6yXJtxtKCCosYpYP8/view?usp=sharing), em que foi analisado as contas da UFCA, observando aspectos como uso da demanda e valores de reativos. Bem como, observou-se o comportamento dos dados. Pode-se dizer a metodologia utilizou-se de pesquisas qualitativas e quantitativas.
 
 Nesse GitHub, é apontado o código em Python para analisar a viabilidade de migração do mercado cativo ao mercado livre da UFCA. A primeira parte do trabalho nessa etapa foi estudar o mercado livre, verificando as possibilidades de migração para uma universidade pública como a UFCA, baseado no perfil traçado anteriormente no primeiro relatório. Os resultados e teória foi disponibilizado no relatório final completo em: 
 
