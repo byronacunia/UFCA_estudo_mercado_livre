@@ -180,15 +180,14 @@ A discussão dos resultados também pode ser feita aqui na medida em que os resu
 ~~~
 
 # Conclusões
-~~~
-<Apresente aqui as conclusões finais do trabalho e as lições aprendidas.>
-~~~
+O presente trabalho teve como objetivo avaliar a possível migração do mercado cativo ao mercado livre da Universidade Federal do Cariri (UFCA). Os estudo iniciais possibilitaram entender diferentes tipos de faturas de energia elétrica, e pontos que devem ser considerados no processo de migração ao mercado livre. Notou-se o quanto é importante ter alternativas como mercado livre, pois isso possibilita a comercialização de energia entre produtos e consumidores, podendo economizar custo e ter um controle melhor sobre os gastos com energia elétrica. Além disso, foi necessário aprofundar os conhecimentos em ferramentas não conhecidas para integrantes do grupo, como GitHub, e Colab.
 
+Como resultado, a UFCA precisa entrar como consumidor especial diante dos números de demanda para cada UC, considerando um contrato com comunhão de cargas por comunhão de direito. Os resultados apontam no melhor cenário um ganho de %, economizando cerca de X. Logo, sendo viavel a migração para um custo de energia de até X reais para o pior caso, que é a compra de energia com fonte especial com 50% de desconto.
+
+Para mais, é necessário o monitoramento constante dos dados de cada UC depois do processo de migração de energia para o mercado livre. Assim, consegue-se obter um controle e possibilita realizar alterações no contrato para obter maior economia.
 
 # Trabalhos Futuros
-~~~
-<Indique trabalhos futuros a partir do ponto alcançado.>
-~~~
+Com todos os estudos realizados e materiais observados pode-se levantar outras considerações que são interessantes para uma análise de migração ao mercado livre em universidades, elevando o nível de precisão e reduzindo as incertezas. Como por exemplo a avaliação dos equipamentos existentes em cada unidade da UFCA; testes e definição de outros tipos de contratos como o sazonalizado; utilizar algoritmos de previsão com base no plano de expansão da UFCA; análise dos riscos com variação do PLD e ultrapassagem do consumo; e buscar formas de suprimir as ameaças do SWOT.
 
 # Referências
 
