@@ -182,6 +182,8 @@ A Tabela 1 apresentou o valor do breakeven obtido para cada cenário. No caso da
 Tabela 1. Valores de breakeven em diferentes cenários analisados para o MWh
 [My image](https://github.com/byronacunia/UFCA_estudo_mercado_livre/blob/main/assets/Tabela1.PNG)
 
+<img src=”https://github.com/byronacunia/UFCA_estudo_mercado_livre/blob/main/assets/Tabela1.PNG”>
+
 # Conclusões
 O presente trabalho teve como objetivo avaliar a possível migração do mercado cativo ao mercado livre da Universidade Federal do Cariri (UFCA). Os estudo iniciais possibilitaram entender diferentes tipos de faturas de energia elétrica, e pontos que devem ser considerados no processo de migração ao mercado livre. Notou-se o quanto é importante ter alternativas como mercado livre, pois isso possibilita a comercialização de energia entre produtos e consumidores, podendo economizar custo e ter um controle melhor sobre os gastos com energia elétrica. Além disso, foi necessário aprofundar os conhecimentos em ferramentas não conhecidas para integrantes do grupo, como GitHub, e Colab.
 
