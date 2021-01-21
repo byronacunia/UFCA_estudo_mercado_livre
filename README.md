@@ -82,7 +82,7 @@ Os benefícios de conseguir negociar o próprio contrato de energia são inúmer
 
 Entretanto, analisar contratos e fundamentos técnicos para migração são necessários, já que um contrato errado pode trazer prejuízos por longos anos. Assim, nesse trabalho o objetivo foi analisar a viabilidade da migração para o mercado livre da Universidade Federal do Cariri (UFCA). Além disso, a proposta da disciplina IT304S - Contratação de Energia para Grandes Consumidores, permitiu conhecer ferramentas e se aprofundar no conteúdo sobre mercado livre. Os resultados foram favoráveis a migração das quatro unidades consumidoras da UFCA em comunhão de carga. O relatório completo do projeto é visto em: https://www.google.com.br/drive/apps.html.
 
-Para tanto, o trabalho apresentou na seção III a descrição da universidade escolhida; na seção IV foi apresentado um conteúdo teórico sobre mercado livre e processo de migração, com vantagens e desvantagens; seção V otimização da demanda; na seção VI foi realizado a análise SWOT (strengths, weaknesses, opportunities, threats - no português, forças, fraquezas, oportunidades e ameaças); seção VII comentou-se os aspectos jurídicos; seção VIII analisou a migração para o mercado livre com vies econômico; e finalizando com as considerações finais.
+Para tanto, no PDF relatório completo do trabalho apresentou-se na seção III a descrição da universidade escolhida; na seção IV foi apresentado um conteúdo teórico sobre mercado livre e processo de migração, com vantagens e desvantagens; seção V otimização da demanda; na seção VI foi realizado a análise SWOT (strengths, weaknesses, opportunities, threats - no português, forças, fraquezas, oportunidades e ameaças); seção VII comentou-se os aspectos jurídicos; seção VIII analisou a migração para o mercado livre com vies econômico; e finalizando com as considerações finais. No presente GitHub, é apresentado a seguir as perguntas de pesquisa, objetivos do projeto, recursos e metódos utilizados, evolução do projeto, resultados e discussão e as conclusões.
 
 
 ## Perguntas de Pesquisa
@@ -192,5 +192,27 @@ A discussão dos resultados também pode ser feita aqui na medida em que os resu
 ~~~
 
 # Referências
+
+[1] J. K. F. de Lima, “Um estudo sobre a instabilidade causada no ambiente de livre
+contratação de energia elétrica devido a erros no processo de formação do preço
+de liquidação das diferenças,” 2019, universidade Federal do Ceará, Trabalho de
+conclusão de curso em Engenharia Elétrica, Fortaleza, Brasil.
+
+[2] Abraceel, “Benefícios, riscos e desafios na transição para um mercado livre,” 2021. [Online]. Available:
+https://www.aneel.gov.br/documents/656877/17755237/Reginaldo+Medeiros.pdf/529c0dc1-4537-2e7c-8d75-273ebfc37fa3
+
+[3] Google, “Ambiente google colab,” 2021. [Online]. Available:
+https://colab.research.google.com/
+
+[] F. M. Lourençato, S. C. Campos, A. M. A. de Castro, J. R. de Castro Barbosa do
+Amaral, N. F. Rossi, A. P. Araki, F. R. F. S. de Paula, A. P. Filho, L. de Faria Rodrigues, and M. S. F. do Amaral Fregonesi, “Estudo de caso da migração de
+compra de energia elétrica do mercado cativo para o mercado de energia livre por
+uma autarquia,” Revista Qualidade HC, pp. 1–13, 2018.
+[6] R. E. M. da Costa, “Análise e simulação da migração de uma empresa do mercado
+cativo para o mercado livre de energia elétrica,” 2019, universidade Federal De Uberlândia, Trabalho de conclusão de curso em Engenharia Elétrica, Uberlândia, Brasil.
+[7] K. R. do Nascimento, “Migração para o mercado livre de energia e alteração de tarifa
+horária: estudo de caso em uma indústria,” 2018, universidade Federal do Rio de
+Janeiro, Trabalho de conclusão de curso em Engenharia, Rio de Janeiro, Brasil.
+
 
 
