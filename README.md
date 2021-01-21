@@ -198,21 +198,15 @@ contratação de energia elétrica devido a erros no processo de formação do p
 de liquidação das diferenças,” 2019, universidade Federal do Ceará, Trabalho de
 conclusão de curso em Engenharia Elétrica, Fortaleza, Brasil.
 
-[2] Abraceel, “Benefícios, riscos e desafios na transição para um mercado livre,” 2021. [Online]. Available:
-https://www.aneel.gov.br/documents/656877/17755237/Reginaldo+Medeiros.pdf/529c0dc1-4537-2e7c-8d75-273ebfc37fa3
+[2] Abraceel, “Benefícios, riscos e desafios na transição para um mercado livre,” 2021. [Online]. Available: https://www.aneel.gov.br/documents/656877/17755237/Reginaldo+Medeiros.pdf/529c0dc1-4537-2e7c-8d75-273ebfc37fa3
 
-[3] Google, “Ambiente google colab,” 2021. [Online]. Available:
-https://colab.research.google.com/
+[3] Google, “Ambiente google colab,” 2021. [Online]. Available: https://colab.research.google.com/
 
-[] F. M. Lourençato, S. C. Campos, A. M. A. de Castro, J. R. de Castro Barbosa do
-Amaral, N. F. Rossi, A. P. Araki, F. R. F. S. de Paula, A. P. Filho, L. de Faria Rodrigues, and M. S. F. do Amaral Fregonesi, “Estudo de caso da migração de
-compra de energia elétrica do mercado cativo para o mercado de energia livre por
-uma autarquia,” Revista Qualidade HC, pp. 1–13, 2018.
-[6] R. E. M. da Costa, “Análise e simulação da migração de uma empresa do mercado
-cativo para o mercado livre de energia elétrica,” 2019, universidade Federal De Uberlândia, Trabalho de conclusão de curso em Engenharia Elétrica, Uberlândia, Brasil.
-[7] K. R. do Nascimento, “Migração para o mercado livre de energia e alteração de tarifa
-horária: estudo de caso em uma indústria,” 2018, universidade Federal do Rio de
-Janeiro, Trabalho de conclusão de curso em Engenharia, Rio de Janeiro, Brasil.
+[4] F. M. Lourençato, S. C. Campos, A. M. A. de Castro, J. R. de Castro Barbosa do Amaral, N. F. Rossi, A. P. Araki, F. R. F. S. de Paula, A. P. Filho, L. de Faria Rodrigues, and M. S. F. do Amaral Fregonesi, “Estudo de caso da migração de compra de energia elétrica do mercado cativo para o mercado de energia livre por uma autarquia,” Revista Qualidade HC, pp. 1–13, 2018.
+
+[5] R. E. M. da Costa, “Análise e simulação da migração de uma empresa do mercado cativo para o mercado livre de energia elétrica,” 2019, universidade Federal De Uberlândia, Trabalho de conclusão de curso em Engenharia Elétrica, Uberlândia, Brasil.
+
+[6] K. R. do Nascimento, “Migração para o mercado livre de energia e alteração de tarifa horária: estudo de caso em uma indústria,” 2018, universidade Federal do Rio de Janeiro, Trabalho de conclusão de curso em Engenharia, Rio de Janeiro, Brasil.
 
 
 
