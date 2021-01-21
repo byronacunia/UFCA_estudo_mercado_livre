@@ -152,7 +152,7 @@ Os procedimentos para análise de viabilidade do processo de migração de energ
 - Procedimento 1: Foi realizado o levantamento das contas de energia disponíveis para as 4 UC's da UFCA e digitalizadas no Colab;
 - Procedimento 2: Dados faltantes foram incrementados utilizando uma algoritmo de previsão de dados;
 - Procedimento 3: Foi observado o comportamento dos dados, perfil do cliente, tipo de contrato, demanda e ultrapassagem de reativo;
-- Procedimento 4: Foi sugerido alterações na demanda com um estudo de otimização;
+- Procedimento 4: Foi sugerido alterações na demanda com um estudo de otimização de demanda em tabela elaborada no Excel;
 - Procedimento 5: Levantou-se os custos de energia dos dois últimos anos (2019, e 2020), e aplicou-se algoritmo de previsão para o ano seguinte (2021);
 - Procedimento 6: Foi separado (calculado) o custo com TUSD (Tarifa de Uso do Sistema de Distribuição) e TE (Tarifa de Energia) para posterior cálculo da conta no mercado livre;
 - Procedimento 7: Foi estudado a análise por SWOT e jurídica para caso de autarquias estatais;
