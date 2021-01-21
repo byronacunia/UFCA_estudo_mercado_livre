@@ -185,18 +185,23 @@ Tabela 1. Valores de breakeven em diferentes cenários analisados para o MWh
 Posteriormente, foi verificado o custo total da conta no cativo e no livre. Para o mercado livre considerou-se um valor de R$ 240,00/MWh, conforme utilizado na literatura encontrada [5]. Entretanto, esse valor pode sofrer grandes alterações para mais ou para menos dependendo do leilão. O valor de R$ 240,00/MWh foi considerado para o cenário 50% e 100%, é um valor que pode ser atingido na prática e serve para realização do estudo na disciplina, buscando uma estimativa de custo total. A Figura 1 mostra o cenário com a demanda atual, e a Figura 2 com a demanda otimizada, o valor no gráfico é a faixa aproximada do custo. É interessante destacar que o ano de 2021, é baseado em anos anteriores. Os dados de 2020 obtidos só tiveram alguns meses de pandemia contabilizados, o restante foi previsão baseada nos anos anteriores, devido a pandemia do COVID-19 e dados disponíveis.  Em todos os cenários verifica-se que o livre tem economia em relação ao cativo.
 
 
+
 <h1 align="center"> <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/Graficos1.png" /> </h1>
 Figura 1. Custos de Fatura anual para Cativo e Livre nos anos analisados com demanda atual
 
+
 <h1 align="center"> <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/Graficos2.png" /> </h1>
 Figura 2. Custos de Fatura anual para Cativo e Livre nos anos analisados com demanda otimizada
+
 
 Para verificar em valores a diferença de custo das faturas foi adicionada na Tabela 2. A economia é calculada pela diferença do preço do cativo e livre. Na demanda otimizada, a fatura do cativo é menor, logo a economia com o mercado livre também é um pouco menor considerando a diferença de preço. Mas, a fatura total ela é reduzida. Dessa forma, com a alteração de demanda tem-se uma fatura com valor inferior a fatura com a demanda atual. Pode ser observado que a economia na fatura anual pode chegar a 24,26% (livre 50%) e  42,22% (livre 100%) na demanda atual; e na demanda otimizada, 23,86% (livre 50%) e 42,27% (livre 100%). Logo, na demanda otimizada o valor pago da fatura é um pouco menor em todos os caso, do que na demanda atual.
 
 Com todos os resultados, pode-se dizer que a migração para o mercado livre é viável para UFCA nos valores considerado no trabalho. Pode-se observar que o valor de breakeven é muito maior do que o praticado geralmente no mercado livre. Logo, o mercado livre pode ser um alternativa atrativa para UFCA.
 
+
 Tabela 2. Custo de faturas e diferenças em diferentes cenários analisados
 <h1 align="center"> <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/Tabela2.PNG" /> </h1>
+
 
 Para mais, o custo de adequação de cada UC pode chegar ao valor de R$ 50.000,00 reais, conforme [7]. Esse valor foi o único encontrado na literatura para referência, bem como não se sabe qual a necessidade de alteração para possibilitar medição na UFCA. Considerando o valor de R$ 50.000,00 reais para cada UC, tem-se um investimento de R$ 200.000,00 reais para o primeiro ano. O ganho obtido pela diferença em relação a fatura do cativo, paga o investimento com um payback (tempo de retorno) menor que 10 meses para livre 50% e aproximadamente 6 meses para o livre 100%, dependendo do ano considerado.
 
@@ -206,12 +211,14 @@ Assim, a recomendação para UFCA é a migração ao mercado livre em comunhão 
 # Conclusões
 O presente trabalho teve como objetivo avaliar a possível migração do mercado cativo ao mercado livre da Universidade Federal do Cariri (UFCA). Os estudo iniciais possibilitaram entender diferentes tipos de faturas de energia elétrica, e pontos que devem ser considerados no processo de migração ao mercado livre. Notou-se o quanto é importante ter alternativas como mercado livre, pois isso possibilita a comercialização de energia entre produtos e consumidores, podendo economizar custo e ter um controle melhor sobre os gastos com energia elétrica. Além disso, foi necessário aprofundar os conhecimentos em ferramentas não conhecidas para integrantes do grupo, como GitHub, e Colab.
 
-Como resultado, a UFCA precisa entrar como consumidor especial diante dos números de demanda para cada UC, considerando um contrato com comunhão de cargas por comunhão de direito. Os resultados apontam no melhor cenário um ganho de %, economizando cerca de X. Logo, sendo viavel a migração para um custo de energia de até X reais para o pior caso, que é a compra de energia com fonte especial com 50% de desconto.
+Como resultado, a UFCA precisa entrar como consumidor especial diante dos números de demanda para cada UC, considerando um contrato com comunhão de cargas por comunhão de direito. Os resultados apontam uma economia na fatura anual que pode chegar a 24,26% (livre 50%) e  42,22% (livre 100%) na demanda atual; e na demanda otimizada, 23,86% (livre 50%) e  42,27% (livre 100%). Em reais, a maior economia seria de R$ 262.659,77  (livre 50%) e R$ 445.591,59 (livre 100%) na demanda atual; e na demanda otimizada, R$ 254.034,96 (livre 50%) e  R$ 427.121,10 (livre 100%). Lembrando, que na demanda otimizada, o valor de economia é reduzido, pois a fatura no cativo utilizada na comparação também é reduzida. Logo, ajustar a demanda seria interessante para uma fatura menor no cativo ou livre.
 
-Para mais, é necessário o monitoramento constante dos dados de cada UC depois do processo de migração de energia para o mercado livre. Assim, consegue-se obter um controle e possibilita realizar alterações no contrato para obter maior economia.
+Logo, a migração é viável na demanda atual para um custo de energia de R$ 390,12 para o livre 50% e R$495,37 para o livre 100%. No caso da demanda ótima, seria R$ 386,04 para o livre 50% e R$486,63 para o livre 100%.
 
 # Trabalhos Futuros
-Com todos os estudos realizados e materiais observados pode-se levantar outras considerações que são interessantes para uma análise de migração ao mercado livre em universidades, elevando o nível de precisão e reduzindo as incertezas. Como por exemplo a avaliação dos equipamentos existentes em cada unidade da UFCA; testes e definição de outros tipos de contratos como o sazonalizado; utilizar algoritmos de previsão com base no plano de expansão da UFCA; análise dos riscos com variação do PLD e ultrapassagem do consumo; e buscar formas de suprimir as ameaças do SWOT.
+Com todos os estudos realizados e materiais observados pode-se levantar outras considerações que são interessantes para uma análise de migração ao mercado livre em universidades, elevando o nível de precisão e reduzindo as incertezas. Como por exemplo a avaliação dos equipamentos existentes em cada unidade da UFCA; testes e definição de outros tipos de contratos como sazonalizado; utilizar algoritmos de previsão com base no plano de expansão da UFCA; Análise dos riscos com PLD e ultrapassagem do consumo; analisar outras possíveis alterações na potência reativa diante cargas; considerar outros custos de energia para o mercado livre; e buscar formas de suprimir as ameaças do SWOT.
+
+Para mais, é necessário o monitoramento constante dos dados de cada UC depois do processo de migração de energia para o mercado livre. Assim, consegue-se obter um controle e possibilita realizar alterações no contrato para obter maior economia.
 
 # Referências
 
