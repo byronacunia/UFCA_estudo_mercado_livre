@@ -48,7 +48,7 @@ Relatório Completo: https://drive.google.com/file/d/1JkrBhZuN5NFp3CdZ3O2Z6Hk2lq
 
 Relatório de Pré-Análise: https://drive.google.com/file/d/1cXDALDNj6ns98IG6yXJtxtKCCosYpYP8/view?usp=sharing
 
-Vídeo de apresentação do Projeto: https:/www.youtube.com
+Vídeo de apresentação do Projeto: https://youtu.be/qFpIkQpKiD0
 
 # Projeto `<Estudo de migração para o mercado livre de energia com base na UFCA>`
 # Project `<Study of migration to the free energy market based on UFCA>`
