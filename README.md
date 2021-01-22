@@ -9,7 +9,7 @@
 ### Professor: Dr. Luiz Carlos Pereira da Silva
 ### Professor: MSc. Lia Farias
 
-Esse repositório faz parte do projeto de estudo de migração do mercado cativo ao livre com base na UFCA. Além do repositório, o relatório completo pode ser encontrado no formato PDF no link https://www.google.com.br/drive/apps.html. Os dados utilizados para o relatório inicial e final estão compilados no código principal final UFCA.ipynb. 
+Esse repositório faz parte do projeto de estudo de migração do mercado cativo ao livre com base na UFCA. Além do repositório, o relatório completo pode ser encontrado no formato PDF no link https://drive.google.com/file/d/1JkrBhZuN5NFp3CdZ3O2Z6Hk2lqpT2g6Q/view?usp=sharing. Os dados utilizados para o relatório inicial e final estão compilados no código principal final UFCA.ipynb. 
 
 A estrutura geral deste repositório é apresentada a seguir. 
 
@@ -44,7 +44,7 @@ O código utilizado na análise é python feito no ambiente Colab.
 
 ## `assets`
 
-Relatório Completo: https://www.google.com.br/drive/apps.html
+Relatório Completo: https://drive.google.com/file/d/1JkrBhZuN5NFp3CdZ3O2Z6Hk2lqpT2g6Q/view?usp=sharing
 
 Relatório de Pré-Análise: https://drive.google.com/file/d/1cXDALDNj6ns98IG6yXJtxtKCCosYpYP8/view?usp=sharing
 
@@ -82,7 +82,7 @@ O mercado livre de energia propiciou a comercialização de energia elétrica co
 
 Os benefícios de conseguir negociar o próprio contrato de energia são inúmeros. O primeiro é criar um ambiente competitivo reduzindo custos, gerando novos produtos e serviços, descentralizando as decisões e limitando poder de intervenção estatal [2].
 
-Entretanto, analisar contratos e fundamentos técnicos para migração são necessários, já que um contrato errado pode trazer prejuízos por longos anos. Assim, nesse trabalho o objetivo foi analisar a viabilidade da migração para o mercado livre da Universidade Federal do Cariri (UFCA). Além disso, a proposta da disciplina IT304S - Contratação de Energia para Grandes Consumidores, permitiu conhecer ferramentas e se aprofundar no conteúdo sobre mercado livre. Os resultados foram favoráveis a migração das quatro unidades consumidoras da UFCA em comunhão de carga. O relatório completo do projeto é visto em: https://www.google.com.br/drive/apps.html.
+Entretanto, analisar contratos e fundamentos técnicos para migração são necessários, já que um contrato errado pode trazer prejuízos por longos anos. Assim, nesse trabalho o objetivo foi analisar a viabilidade da migração para o mercado livre da Universidade Federal do Cariri (UFCA). Além disso, a proposta da disciplina IT304S - Contratação de Energia para Grandes Consumidores, permitiu conhecer ferramentas e se aprofundar no conteúdo sobre mercado livre. Os resultados foram favoráveis a migração das quatro unidades consumidoras da UFCA em comunhão de carga. O relatório completo do projeto é visto em: https://drive.google.com/file/d/1JkrBhZuN5NFp3CdZ3O2Z6Hk2lqpT2g6Q/view?usp=sharing.
 
 Para tanto, no PDF relatório completo do trabalho apresentou-se na seção III a descrição da universidade escolhida; na seção IV foi apresentado um conteúdo teórico sobre mercado livre e processo de migração, com vantagens e desvantagens; seção V otimização da demanda; na seção VI foi realizado a análise SWOT (strengths, weaknesses, opportunities, threats - no português, forças, fraquezas, oportunidades e ameaças); seção VII comentou-se os aspectos jurídicos; seção VIII analisou a migração para o mercado livre com vies econômico; e finalizando com as considerações finais. No presente GitHub, é apresentado a seguir as perguntas de pesquisa, objetivos do projeto, recursos e metódos utilizados, evolução do projeto, resultados e discussão e as conclusões.
 
@@ -120,7 +120,7 @@ Colab | https://colab.research.google.com/ | `<Elaboração do código em Python
 
 O primeiro passo para estudo de migração ao mercado livre foi realizado no primeiro relatório da disciplina IT304S - Contratação de Energia para Grandes Consumidores (disponibilizado no Google Drive do curso, pasta UFCA, ou https://drive.google.com/file/d/1cXDALDNj6ns98IG6yXJtxtKCCosYpYP8/view?usp=sharing), em que foi analisado as contas da UFCA, observando aspectos como uso da demanda e valores de reativos. Bem como, observou-se o comportamento dos dados. Pode-se dizer a metodologia utilizou-se de pesquisas qualitativas e quantitativas.
 
-Nesse GitHub, é apontado o código em Python para analisar a viabilidade de migração do mercado cativo ao mercado livre da UFCA. A primeira parte do trabalho nessa etapa foi estudar o mercado livre, verificando as possibilidades de migração para uma universidade pública como a UFCA, baseado no perfil traçado anteriormente no primeiro relatório. Os resultados e teória foi disponibilizado no relatório final completo em: 
+Nesse GitHub, é apontado o código em Python para analisar a viabilidade de migração do mercado cativo ao mercado livre da UFCA. A primeira parte do trabalho nessa etapa foi estudar o mercado livre, verificando as possibilidades de migração para uma universidade pública como a UFCA, baseado no perfil traçado anteriormente no primeiro relatório. Os resultados e teória foi disponibilizado no relatório final completo em: https://drive.google.com/file/d/1JkrBhZuN5NFp3CdZ3O2Z6Hk2lqpT2g6Q/view?usp=sharing
 
 Posteriormente, foi realizado um processo para otimização de demanda, variando o valor de demanda contratada até chegar ao valor ótimo. Em seguida, aspectos de SWOT e jurídicos foram comentados no relatório completo, já que muito se tem discutido sobre a legalidade e fundamentação da migração do mercado cativo ao livre de universidades públicas. Mesmo já existindo exemplos de sucesso como a UNICAMP.
 
